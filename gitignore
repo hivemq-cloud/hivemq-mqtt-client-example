@@ -1,0 +1,63 @@
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/shelf/
+.idea/inspectionProfiles/
+
+# Generated files
+.idea/**/contentModel.xml
+.idea/**/vcs.xml
+.idea/**/misc.xml
+.idea/**/kotlinc.xml
+.idea/**/jarRepositories.xml
+.idea/**/encodings.xml
+.idea/**/compiler.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+.idea/modules.xml
+.idea/*.iml
+.idea/modules/
+**/*.iml
+
+frontend/dist/
+frontend/node_modules/
+frontend/test-results/
+
+# IntelliJ/Gradle output
+**/out/
+**/target/
+**/build/
+**/.gradle/
+
+# Terraform
+**/.terraform/
+
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+**/.java-version
+**/.DS_Store
+
+
+api/src/main/generated/
+api/src/integrationTest/generated_tests/
+api/src/test/generated_tests/
